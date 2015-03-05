@@ -1,10 +1,13 @@
-.b {
+.btn {
     width: 200px;
 }
 
-.t {
+.txt {
     width: 200px;
 }
 .base {
     text-align: center;
+}
+#toolbar {
+    background-color: #88bbdd;
 }

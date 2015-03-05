@@ -6,7 +6,7 @@ Text.prototype = new Element();
 
 Text.prototype.render = function() {
     var self = this;
-    var el = $("<div class='t'><span>" + this.text + "</span></div>");
+    var el = $("<div class='txt'><span>" + this.text + "</span></div>");
     el.draggable();
     $('#elements').append(el);
     el.css('background-color', this.color);

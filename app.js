@@ -20,13 +20,13 @@
     }
     
     function addButton() {
-        var btn = new Button('This is a non-linked link.', '#fff');
+        var btn = new Button('This is a non-linked link.', 'teal');
         elements.push(btn);
         btn.render();
     }
     
     function addText() {
-        var txt = new Text('Some text.', '#fff');
+        var txt = new Text('Some text.', 'gray');
         elements.push(txt);
         txt.render();
     }
